@@ -1,2 +1,23 @@
-{ "name" : "transmit",
-  "main" : "./lib/transmit.js" }
+{
+  "author": "Ian Ward <ianshward@gmail.com>",
+  "name": "tcpex",
+  "description": "Very basic TCP example server in node.js",
+  "version": "0.0.0",
+  "main": "./lib/index.js",
+  "keywords": [
+    "tcp",
+    "connection",
+    "example"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ianshward/tcpex.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "1.2.1",
+    "chai": "1.1.0"
+  }
+}
