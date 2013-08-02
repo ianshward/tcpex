@@ -1,4 +1,4 @@
-## Example TCP server
+[![Build Status](https://travis-ci.org/ianshward/tcpex.png)](https://travis-ci.org/ianshward/tcpex)
 
 A very simple TCP server implementation in node.js.
 
